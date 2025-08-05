@@ -1,0 +1,111 @@
+import teacher from "@/images/teacher3.jpg";
+
+const teachers = [
+  {
+    name: "Alice Thompson",
+    role: "Principal",
+    desc: "Leads the academic and administrative vision of the school.",
+    image: teacher,
+    department: "Administration",
+  },
+  {
+    name: "Ben Carter",
+    role: "Vice Principal",
+    desc: "Assists in school management and student discipline.",
+    image: teacher,
+    department: "Administration",
+  },
+  {
+    name: "Catherine Hill",
+    role: "Academic Coordinator",
+    desc: "Coordinates the curriculum and ensures academic quality.",
+    image: teacher,
+    department: "Administration",
+  },
+  {
+    name: "David Brooks",
+    role: "Head of Department - Science",
+    desc: "Supervises the science faculty and ensures excellence in science education.",
+    image: teacher,
+    department: "Science",
+  },
+  {
+    name: "Eva Chen",
+    role: "Head of Department - Arts",
+    desc: "Promotes artistic talent and manages the arts faculty.",
+    image: teacher,
+    department: "Arts",
+  },
+  {
+    name: "Frank Wright",
+    role: "Discipline Incharge",
+    desc: "Ensures students follow the code of conduct with fairness.",
+    image: teacher,
+    department: "Discipline",
+  },
+  {
+    name: "Grace Lee",
+    role: "IT Coordinator",
+    desc: "Oversees digital infrastructure and tech-based learning.",
+    image: teacher,
+    department: "Information Technology",
+  },
+  {
+    name: "Henry Kim",
+    role: "Mathematics Teacher",
+    desc: "Teaches advanced mathematics and mentors math club members.",
+    image: teacher,
+    department: "Mathematics",
+  },
+  {
+    name: "Isabella Ford",
+    role: "Examination Controller",
+    desc: "Manages examinations, schedules, and grading systems.",
+    image: teacher,
+    department: "Examination",
+  },
+  {
+    name: "Jack Nolan",
+    role: "Counselor",
+    desc: "Supports students' mental health and personal development.",
+    image: teacher,
+    department: "Counseling",
+  },
+  {
+    name: "Laura Mitchell",
+    role: "Physics Teacher",
+    desc: "Specializes in teaching Physics with practical demonstrations.",
+    image: teacher,
+    department: "Science",
+  },
+  {
+    name: "Mark Stevens",
+    role: "English Literature Teacher",
+    desc: "Encourages creative writing and deep literary analysis.",
+    image: teacher,
+    department: "Arts",
+  },
+  {
+    name: "Nina Patel",
+    role: "Computer Science Teacher",
+    desc: "Teaches programming, algorithms, and software development.",
+    image: teacher,
+    department: "Information Technology",
+  },
+  {
+    name: "Oliver Davis",
+    role: "Chemistry Teacher",
+    desc: "Conducts engaging lab experiments and chemistry lectures.",
+    image: teacher,
+    department: "Science",
+  },
+  {
+    name: "Sophia Roberts",
+    role: "History Teacher",
+    desc: "Brings history to life with interactive storytelling.",
+    image: teacher,
+    department: "Social Studies",
+  },
+];
+
+export default teachers;
