@@ -23,13 +23,13 @@ const About = () => {
       </div>
       <div className="paragraph text-gray-600  w-160 h-70 ml-auto mr-16 mt-4 p-2">
         <p>
-          Pragati was founded in 2053 with the vision of providing
-          high-quality education to students from diverse backgrounds. Over the
-          past decades, we have grown from a small local school to a renowned
-          educational institution known for our commitment to academic
-          excellence, innovative teaching methods, and inclusive community. Our
-          history is marked by continuous improvement and adaptation to meet the
-          evolving needs of our students.
+          Pragati was founded in 2053 with the vision of providing high-quality
+          education to students from diverse backgrounds. Over the past decades,
+          we have grown from a small local school to a renowned educational
+          institution known for our commitment to academic excellence,
+          innovative teaching methods, and inclusive community. Our history is
+          marked by continuous improvement and adaptation to meet the evolving
+          needs of our students.
         </p>
         <p>
           Throughout the years, PragatiHigh has expanded its facilities,

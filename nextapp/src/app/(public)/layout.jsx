@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// export const metadata: Metadata = {
-//   title: "Pragati High",
-//   description: "A place of learning and inspiration",
-//   icons: {
-//     icon: "/school.svg",
-//   },
-// };
+export const metadata = {
+  title: "Pragati High",
+  description: "A place of learning and inspiration",
+  icons: {
+    icon: "/school.svg",
+  },
+};
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

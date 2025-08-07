@@ -99,8 +99,7 @@ const Footer = () => {
         </div>
       </div>
       <section className="text-white text-center mt-4 w-full bg-black">
-        &copy; 2025 Pragati High School. All rights
-        reserved
+        &copy; 2025 Pragati High School. All rights reserved
       </section>
     </footer>
   );
