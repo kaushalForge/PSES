@@ -1,4 +1,4 @@
-import Community from "@/components/Pages/Community";
+import Community from "../../../components/Pages/Community";
 
 const CommunityRoute = () => {
   return (

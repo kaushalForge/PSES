@@ -1,4 +1,4 @@
-import Programs from "@/components/Pages/Programs";
+import Programs from "../../../components/Pages/Programs";
 
 const ProgramRoute = () => {
   return (

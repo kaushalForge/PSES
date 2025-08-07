@@ -4,12 +4,11 @@ import Image from "next/image";
 import { useEffect } from "react";
 import gsap from "gsap";
 import scrollTrigger from "gsap/ScrollTrigger";
-import { motion } from "framer-motion";
 gsap.registerPlugin(scrollTrigger);
 
-import teacher1 from "@/images/teacher1.jpg";
-import teacher2 from "@/images/teacher2.jpg";
-import teacher3 from "@/images/teacher3.jpg";
+import teacher1 from "../../images/teacher1.jpg";
+import teacher2 from "../../images/teacher2.jpg";
+import teacher3 from "../../images/teacher3.jpg";
 
 const FourthSection = () => {
   useEffect(() => {

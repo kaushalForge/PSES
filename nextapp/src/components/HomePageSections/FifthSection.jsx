@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import schoolsvg from "@/svgs/School1.svg";
-import bookssvg from "@/svgs/Books.svg";
-import communitysvg from "@/svgs/Community.svg";
+import schoolsvg from "../../svgs/School1.svg";
+import bookssvg from "../../svgs/Books.svg";
+import communitysvg from "../../svgs/Community.svg";
 
 const FifthSection = () => {
   return (

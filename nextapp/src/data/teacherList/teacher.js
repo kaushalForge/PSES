@@ -1,4 +1,4 @@
-import teacher from "@/images/teacher3.jpg";
+import teacher from "../../images/teacher3.jpg";
 
 const teachers = [
   {

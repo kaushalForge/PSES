@@ -1,11 +1,12 @@
-import About from '@/components/Pages/About'
-import React from 'react'
+import About from "../../../components/Pages/About";
+import React from "react";
 
 const page = () => {
   return (
-    <About />
-    
-  )
-}
+    <>
+      <About />
+    </>
+  );
+};
 
-export default page
+export default page;

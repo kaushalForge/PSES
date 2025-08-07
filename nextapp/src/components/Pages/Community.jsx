@@ -5,7 +5,6 @@ import Image from "next/image";
 import teachers from "../../data/teacherList/teacher";
 
 const CommunityPage = () => {
-  
   const grouped = teachers.reduce((acc, teacher) => {
     const dept = (teacher.department || "General").trim() || "General";
     if (!acc[dept]) acc[dept] = [];

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import aboutus from "@/images/aboutus.png";
+import aboutus from "../../images/aboutus.png";
 
 const About = () => {
   const imageUrl =

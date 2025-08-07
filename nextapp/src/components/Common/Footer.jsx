@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import schoolLogo from "@/images/schoolLogo.avif";
+import schoolLogo from "../../images/schoolLogo.avif";
 import { FaFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";

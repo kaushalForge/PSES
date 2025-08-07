@@ -2,8 +2,8 @@
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import inspiration_quote from "@/images/inspiration_quote.avif";
-import student3 from "@/images/student3.avif";
+import inspiration_quote from "../../images/inspiration_quote.avif";
+import student3 from "../../images/student3.avif";
 import gsap from "gsap";
 import scrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(scrollTrigger);

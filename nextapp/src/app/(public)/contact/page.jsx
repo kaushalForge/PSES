@@ -1,4 +1,4 @@
-import Contact from "@/components/Pages/Contact";
+import Contact from "../../../components/Pages/Contact";
 
 const ContactRoute = () => {
   return (

@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import playingFootball from "@/images/playing-football.jpg";
-import dancing from "@/images/dancing.jpg";
-import study from "@/images/groupstudy.jpg";
-import computerclass from "@/images/computerclass.jpg";
+import playingFootball from "../../images/playing-football.jpg";
+import dancing from "../../images/dancing.jpg";
+import study from "../../images/groupstudy.jpg";
+import computerclass from "../../images/computerclass.jpg";
 
 const SixthSection = () => {
   return (

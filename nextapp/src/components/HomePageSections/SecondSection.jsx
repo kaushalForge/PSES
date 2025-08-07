@@ -6,8 +6,8 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import Image from "next/image";
-import img1 from "@/images/student1.jpg";
-import img2 from "@/images/student2.jpg";
+import img1 from "../../images/student1.jpg";
+import img2 from "../../images/student2.jpg";
 
 const SecondSection = () => {
   useEffect(() => {
