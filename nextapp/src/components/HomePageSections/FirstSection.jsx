@@ -2,11 +2,11 @@ const FirstSection = () => {
   return (
     <>
       <section className="w-full container mx-auto h-auto mt-24">
-        <div className="flex flex-col md:flex-row items-center justify-between px-12 py-4 md:py-8 gap-2">
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between px-4 md:px-8 py-2 md:py-8 gap-2">
           <div className="text-4xl md:text-6xl text-slate-800">
             Discover Your <br /> Potential Education
           </div>
-          <div className="flex items-center md:items-start justify-center flex-col text-lg text-slate-800">
+          <div className="flex items-start md:items-center justify-center flex-col text-lg text-slate-800">
             <p>
               Our school provides dynamic envoronment that <br /> empowers
               students to new heights.

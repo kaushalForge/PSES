@@ -15,7 +15,7 @@ const MobileMenu = ({ menuOpen, toggleMenu }) => {
             <button>
               <IoClose
                 onClick={toggleMenu}
-                className="h-4 w-4 outline-1 rounded-full cursor-pointer"
+                className="h-6 w-6 outline-1 rounded-full cursor-pointer"
               />
             </button>
           </div>

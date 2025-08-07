@@ -1,4 +1,3 @@
-// import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
 import { ReactLenis } from "../utils/lenis";
@@ -22,6 +21,7 @@ export const metadata = {
     icon: "/school.svg",
   },
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

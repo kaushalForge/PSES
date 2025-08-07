@@ -36,7 +36,7 @@ const ThirdSection = () => {
 
   return (
     <>
-      <section className="hidden md:flex sectionthree container mx-auto w-full md:px-8 items-center flex-col justify-center mt-2 md:mt-4">
+      <section className="hidden md:flex sectionthree container mx-auto w-full px-4 md:px-8 items-center flex-col justify-center mt-2 md:mt-4">
         <div className="pinelement flex items-center justify-center gap-6">
           <div className="relative">
             <div className="flex flex-col md:flex-row items-center w-full md:h-80 justify-center gap-2 mb-12 flex-wrap relative">

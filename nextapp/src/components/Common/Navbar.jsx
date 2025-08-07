@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <nav className="fixed w-full top-0 h-12 md:h-16 backdrop-blur-md border-b-[1px] border-[#e0e0e0] z-50">
         <div className="flex items-center justify-between container mx-auto p-2 md:p-6">
-          <a href="/" className="font-light text-slate-800 text-xl">
+          <a href="/" className="font-light text-slate-800 text-2xl md:text-xl">
             <span className="font-bold">Pragati</span>High
           </a>
 

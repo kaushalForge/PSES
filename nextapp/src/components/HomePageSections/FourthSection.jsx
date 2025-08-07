@@ -74,12 +74,9 @@ const FourthSection = () => {
               </div>
             </section>
           </div>
-          <p className="text-white text-lg px-12 text-center">
+          <p className="text-white text-lg px-4 md:px-8 text-center">
             At Pragati, we don’t just learn we grow, we explore,
             <br /> & we believe in what we can become. <br />
-            <span className="hover:bg-black hover:text-white px-4 rounded-lg cursor-pointer transition-colors duration-200 text-xl text-black font-semibold">
-              Your journey starts here!
-            </span>
           </p>
         </div>
       </section>

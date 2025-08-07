@@ -9,7 +9,7 @@ import computerclass from "../../images/computerclass.jpg";
 
 const SixthSection = () => {
   return (
-    <section className="min-h-screen relative bg-white w-full px-12 py-8">
+    <section className="min-h-screen relative bg-white w-full px-4 md:px-8 py-2 md:py-8">
       <div className="max-w-7xl mx-auto flex flex-col items-start">
         <div className="mb-10">
           <h2 className="text-xl md:text-2xl font-medium text-slate-900">
@@ -33,7 +33,7 @@ const SixthSection = () => {
             { src: computerclass, label: "Computer Lab" },
           ].map(({ src, label }, index) => (
             <div key={index}>
-              <div className="overflow-hidden w-[500px] md:w-[400px] lg:w-[480px] h-72 border-2">
+              <div className="overflow-hidden w-[450px] md:w-[400px] lg:w-[480px] h-72 border-2">
                 <motion.div
                   initial={{ scale: 1 }}
                   whileHover={{ scale: 1.1 }}

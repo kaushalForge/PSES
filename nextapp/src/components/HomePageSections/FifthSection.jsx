@@ -10,7 +10,7 @@ const FifthSection = () => {
     <>
       <section className="section5 relative bg-[#EEF4F8] rounded-t-4xl h-auto pt-16">
         <div className="h-full">
-          <div className="container mx-auto px-12 py-8">
+          <div className="container mx-auto px-4 md:px-8 py-2 md:py-8">
             <div className="flex flex-col items-start justify-center">
               <h2 className="text-2xl md:text-3xl lg:text-4xl underline underline-offset-8 text-slate-900 font-semibold">
                 Activities
@@ -49,7 +49,7 @@ const FifthSection = () => {
               </div>
             </div>
           </div>
-          <div className="h-[500px] w-full overflow-hidden">
+          <div className="mt-12 md:h-[500px] w-full overflow-hidden">
             <video
               src="/videos/video1.mp4"
               autoPlay
