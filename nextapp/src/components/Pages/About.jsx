@@ -1,11 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import aboutus from "../../images/aboutus.png";
+import aboutus from "../../images/about.jpg";
 
 const About = () => {
-  const imageUrl =
-    "https://img.freepik.com/premium-photo/composite-image-business-people-working-table_1134-2064.jpg?ga=GA1.1.932490508.1750586865&semt=ais_hybrid&w=740";
   return (
     <div className="min-h-screen mb-10 flex flex-col w-full mt-16 container mx-auto">
       <div className="relative w-full">
@@ -15,6 +13,7 @@ const About = () => {
             alt="About"
             className="w-full h-80 object-cover"
             unoptimized
+            priority
           />
         </div>
         <div className="hidden md:flex z-10 bg-[#15293D] h-50 w-132 left-6 absolute top-60 text-white rounded-t-3xl    ">

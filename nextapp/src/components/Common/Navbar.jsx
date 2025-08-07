@@ -2,7 +2,6 @@
 import { useState } from "react";
 import MobileMenu from "../Responsive/MobileMenu";
 import { IoMenu } from "react-icons/io5";
-import { IoClose } from "react-icons/io5";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);

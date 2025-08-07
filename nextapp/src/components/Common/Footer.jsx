@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import schoolLogo from "../../images/schoolLogo.avif";
+import schoolLogo from "../../images/pses-logo.png";
 import { FaFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
@@ -19,8 +19,8 @@ const Footer = () => {
                 <Image
                   src={schoolLogo}
                   alt="School Logo"
-                  width={50}
-                  height={50}
+                  width={80}
+                  height={80}
                 />
                 <h2 className="text-3xl text-slate-900 font-semibold">
                   Pragati
