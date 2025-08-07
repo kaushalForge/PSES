@@ -4,17 +4,14 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import teachers from "../../data/teacherList/teacher";
 
-export default function CommunityPage() {
-  // group teachers by department (fallback to "General" if missing)
-  const grouped = teachers.reduce<Record<string, typeof teachers>>(
-    (acc, teacher) => {
-      const dept = (teacher.department || "General").trim() || "General";
-      if (!acc[dept]) acc[dept] = [];
-      acc[dept].push(teacher);
-      return acc;
-    },
-    {}
-  );
+const CommunityPage = () => {
+  
+  const grouped = teachers.reduce((acc, teacher) => {
+    const dept = (teacher.department || "General").trim() || "General";
+    if (!acc[dept]) acc[dept] = [];
+    acc[dept].push(teacher);
+    return acc;
+  }, {});
 
   return (
     <div className="min-h-screen px-6 md:px-20 py-12 bg-white mt-10">
@@ -66,4 +63,6 @@ export default function CommunityPage() {
       ))}
     </div>
   );
-}
+};
+
+export default CommunityPage;

@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/admin/adminPanel.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/admin/adminPanel.js", "src/app/(public)/about/page.jsx", "src/app/(public)/community/page.jsx", "src/app/(public)/contact/page.jsx", "src/app/(public)/programs/page.jsx", "src/app/(public)/page.jsx", "src/app/(public)/layout.jsx", "src/components/Common/CardLayout.jsx", "src/components/Common/Footer.jsx", "src/components/Common/Navbar.jsx", "src/components/HomePageSections/FifthSection.jsx", "src/components/HomePageSections/FirstSection.jsx", "src/components/HomePageSections/FourthSection.jsx", "src/components/HomePageSections/SecondSection.jsx", "src/components/HomePageSections/SeventhSection.jsx", "src/components/HomePageSections/SixthSection.jsx", "src/components/HomePageSections/ThirdSection.jsx", "src/components/Pages/About.jsx", "src/components/Pages/Community.jsx", "src/components/Pages/Contact.jsx", "src/components/Pages/Programs.jsx", "src/components/ProgramsSections/FirstSection.jsx", "src/components/Responsive/MobileMenu.jsx", "src/components/Home.jsx", "src/data/teacherList/teacher.js"],
   "exclude": ["node_modules"]
 }

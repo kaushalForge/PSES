@@ -34,7 +34,7 @@ const FirstSection = () => {
           transition={{ duration: 1, ease: "easeOut" }}
           className="text-lg text-slate-800 font-medium px-12"
         >
-          Programs at Edmun
+          Programs at Pragati
         </motion.h2>
         <Card data={data} />
         <div className="my-12 px-12">

@@ -22,7 +22,9 @@ const Footer = () => {
                   width={50}
                   height={50}
                 />
-                <h2 className="text-3xl text-slate-900 font-semibold">Pragati</h2>
+                <h2 className="text-3xl text-slate-900 font-semibold">
+                  Pragati
+                </h2>
                 <span className="h-12 border-r-2 border-black"></span>
                 <h2 className="text-xl text-slate-700 font-medium leading-5">
                   Pragati <br /> <span className="italic">High School</span>
@@ -97,7 +99,8 @@ const Footer = () => {
         </div>
       </div>
       <section className="text-white text-center mt-4 w-full bg-black">
-        &copy; {new Date().getFullYear()} Pragati High School. All rights reserved
+        &copy; 2025 Pragati High School. All rights
+        reserved
       </section>
     </footer>
   );

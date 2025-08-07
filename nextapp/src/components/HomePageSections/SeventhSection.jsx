@@ -27,10 +27,10 @@ const faqs = [
 ];
 
 const SeventhSection = () => {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleFaq = (index: number) => {
-    setOpenIndex(index === openIndex ? null : index);
+  const toggleFaq = (index) => {
+    setOpenIndex(index === openIndex ? index : null);
   };
 
   return (

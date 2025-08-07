@@ -32,11 +32,8 @@ const SixthSection = () => {
             { src: dancing, label: "Dancing" },
             { src: computerclass, label: "Computer Lab" },
           ].map(({ src, label }, index) => (
-            <div>
-              <div
-                key={index}
-                className="overflow-hidden w-[500px] md:w-[400px] lg:w-[480px] h-72 border-2"
-              >
+            <div key={index}>
+              <div className="overflow-hidden w-[500px] md:w-[400px] lg:w-[480px] h-72 border-2">
                 <motion.div
                   initial={{ scale: 1 }}
                   whileHover={{ scale: 1.1 }}

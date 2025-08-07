@@ -1,12 +1,7 @@
 "use client";
 import { IoClose } from "react-icons/io5";
 
-interface MobileMenuProps {
-  menuOpen: boolean;
-  toggleMenu: () => void;
-}
-
-const MobileMenu = ({ menuOpen, toggleMenu }: MobileMenuProps) => {
+const MobileMenu = ({ menuOpen, toggleMenu }) => {
   return (
     <>
       <div className="flex md:hidden">

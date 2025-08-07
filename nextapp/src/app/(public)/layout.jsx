@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.css";
 import { ReactLenis } from "../utils/lenis";
@@ -15,18 +15,14 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Pragati High",
-  description: "A place of learning and inspiration",
-  icons: {
-    icon: "/school.svg",
-  },
-};
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+// export const metadata: Metadata = {
+//   title: "Pragati High",
+//   description: "A place of learning and inspiration",
+//   icons: {
+//     icon: "/school.svg",
+//   },
+// };
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
