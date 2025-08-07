@@ -30,14 +30,15 @@ const SeventhSection = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFaq = (index) => {
-    setOpenIndex(index === openIndex ? index : null);
+    // If clicked question is already open, close it; otherwise open the new one
+    setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
     <section className="min-h-screen bg-[#EEF4F8] py-12">
       <div className="container mx-auto px-6 md:px-12">
         <h4 className="text-2xl md:text-3xl lg:text-4xl mb-12 text-slate-900 font-semibold">
-          Frequently Asked Questions(FAQ'S)
+          Frequently Asked Questions (FAQ'S)
         </h4>
 
         <div className="flex flex-col md:flex-row gap-8">
@@ -62,6 +63,8 @@ const SeventhSection = () => {
                 <button
                   onClick={() => toggleFaq(index)}
                   className="flex items-center justify-between w-full px-4 py-3 text-left font-medium text-slate-800 hover:bg-gray-100 transition-colors duration-200"
+                  aria-expanded={openIndex === index}
+                  aria-controls={`faq-answer-${index}`}
                 >
                   <span>{faq.question}</span>
                   <span className="ml-4">
@@ -69,6 +72,7 @@ const SeventhSection = () => {
                   </span>
                 </button>
                 <div
+                  id={`faq-answer-${index}`}
                   className={`px-4 text-sm text-gray-600 transition-all duration-300 ease-in-out overflow-hidden ${
                     openIndex === index ? "max-h-40 py-2" : "max-h-0 py-0"
                   }`}
